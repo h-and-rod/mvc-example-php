@@ -9,16 +9,31 @@ The project follows the MVC pattern with clear separation between models, views,
 ```
 MVC_PORTFOLIO
 ├── app
-│   ├── Config
-│   ├── Controllers
-│   ├── Models
-│   ├── Views
-│   └── Core
-│   └── Core
+│   ├── controllers
+│   │   └── #
+│   │
+│   ├── core
+│   │   └── #
+│   │
+│   ├── models
+│   │   └── #
+│   │
+│   └── views
+│       └── #
+│    
+├── config
+│   └── #
 │  
 ├── public
-│   └── index.php
-│  
+│   ├── assets
+│   │   ├── css
+│   │   │   └── #
+│   │   ├── images
+│   │   │   └── #
+│   │   └── js
+│   │       └── script.js
+│   ├── index.php
+│   └── upload.php
 │  
 └── README.md
 ```
