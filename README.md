@@ -10,30 +10,43 @@ The project follows the MVC pattern with clear separation between models, views,
 MVC_PORTFOLIO
 ├── app
 │   ├── controllers
-│   │   └── #
+│   │   └── # This is the controller layer. 
+│   │       # It acts as a bridge between the Model and the View,
+│   │       # receiving user requests, processing them with the support of the Model,
+│   │       # and sending a response to the View layer.
 │   │
 │   ├── core
-│   │   └── #
+│   │   └── # Core contains the essential classes and utilities for the MVC framework,
+│   │       # such as the base Controller, base Model, Router, and Database connection classes.
 │   │
 │   ├── models
-│   │   └── #
+│   │   └── # This is the data layer. It handles the business logic and represents
+│   │       # It handles the business logic and represents
+│   │       # the data manipulated by the system.
 │   │
 │   └── views
-│       └── #
-│    
+│       └── # This is the presentation layer.
+│           # It displays data to the user;
+│
 ├── config
-│   └── #
+│   └── # Contains configuration files for the application,
+│       # such as database credentials, environment variables, and app settings.
 │  
 ├── public
 │   ├── assets
 │   │   ├── css
-│   │   │   └── #
+│   │   │   └── # Stylesheets for the front-end, defining layout, colors, and typography.
 │   │   ├── images
-│   │   │   └── #
+│   │   │   └── # Image files used in the application, such as logos and icons.
 │   │   └── js
-│   │       └── script.js
+│   │       └── # JavaScript files for front-end interactivity and client-side logic.
+│   │           
 │   ├── index.php
+│   │   └── # The entry point of the application.
+│   │       # It initializes the app, loads necessary resources, and directs requests to the router.
 │   └── upload.php
+│       └── # 
+│           
 │  
 └── README.md
 ```
